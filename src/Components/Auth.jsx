@@ -14,12 +14,12 @@ export default function Auth() {
       return () => clearTimeout(fade1);
     }
 
-    useEffect(() => {
-      const fade=setTimeout(() => {
-        setShowAlert(false)
-      },3000 )
-      return () => clearTimeout(fade);
-    })
+    // useEffect(() => {
+    //   const fade=setTimeout(() => {
+    //     setShowAlert(false)
+    //   },3000 )
+    //   return () => clearTimeout(fade);
+    // })
 
   return (
     <div>{
