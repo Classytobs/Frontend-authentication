@@ -104,7 +104,7 @@ function App() {
             </div></>)}
 
             <div >
-              <Auth />
+              <Auth delay={true}/>
             </div>
             
           </form>
